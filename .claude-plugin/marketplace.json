@@ -1,0 +1,30 @@
+{
+  "name": "jonah-mods",
+  "owner": {
+    "name": "Jonah-Schep",
+    "url": "https://github.com/Jonah-Schep"
+  },
+  "metadata": {
+    "description": "The Claude Code mods I use"
+  },
+  "plugins": [
+    {
+      "name": "minecraft-hud",
+      "source": "./plugins/minecraft-hud",
+      "description": "The vanilla Minecraft survival HUD above the prompt: hearts are your weekly limit, hunger your 5-hour limit, armor your Fable limit, the XP bar your context left.",
+      "version": "0.1.0",
+      "keywords": ["mod", "minecraft", "pixel-art", "usage", "status-line"]
+    },
+    {
+      "name": "heavens-feel",
+      "source": {
+        "source": "github",
+        "repo": "yedidyakfir/heavens-feel"
+      },
+      "description": "Heaven's Feel by Yedidya Kfir: Sakura watches over the main session, Servants answer every subagent",
+      "homepage": "https://github.com/yedidyakfir/heavens-feel",
+      "license": "MIT",
+      "keywords": ["mod", "anime", "fate", "pixel-art", "subagents", "pane"]
+    }
+  ]
+}

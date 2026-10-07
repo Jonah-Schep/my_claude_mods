@@ -1,0 +1,25 @@
+{
+  "name": "minecraft-hud",
+  "version": "0.1.0",
+  "description": "The vanilla Minecraft survival HUD above the prompt: hearts are your weekly limit, hunger your 5-hour limit, armor your Fable limit, the XP bar your context left (100 levels = empty window).",
+  "author": {
+    "name": "Jonah-Schep",
+    "url": "https://github.com/Jonah-Schep"
+  },
+  "repository": "https://github.com/Jonah-Schep/my_claude_mods",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "hardcore": {
+      "type": "boolean",
+      "title": "Hardcore hearts",
+      "description": "Draw the hardcore-world hearts instead of the normal ones.",
+      "default": false
+    },
+    "scale": {
+      "type": "number",
+      "title": "GUI scale",
+      "description": "Pixels per Minecraft pixel in the desktop app, like the in-game GUI Scale.",
+      "default": 3
+    }
+  }
+}
